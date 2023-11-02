@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Arduino LED Switch</title>
+        <link rel="stylesheet" href="styles.css">
+        <script type="text/javascript" src="/eel.js"></script>
+        <script type="text/javascript">
+//            alert("alert");
+            function ledOn(){
+                eel.ledOn();
+            }
+            
+            function ledOff(){
+                eel.ledOff();
+            }
+        </script>
+    </head>
+    <body>
+        <nav>
+            <h1>LED CONTROLLER</h1>
+        </nav>
+        <main>
+            <button class="turnon" onclick="ledOn()">
+                Turn ON
+            </button>
+            <button class="turnoff" onclick="ledOff()">
+                Turn OFF
+            </button>
+        </main>
+        <footer>
+            
+        </footer>
+    </body>
+</html>
